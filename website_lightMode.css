@@ -17,6 +17,47 @@ body {
 .container {
     margin-bottom: 20px;
 }
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, #fff, #f2f2f2);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.navbar a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a.home {
+    background-color: #3b5998;
+}
+
+.navbar a.Video {
+    background-color: #ff1500;
+}
+
+.navbar a.Contact {
+    background-color: #919091;
+}
+
+.navbar a.other {
+    background-color: #8686b7;
+}
+
+
 .container1 {
     max-width: 1200px;
     margin: 0 auto;
@@ -75,9 +116,28 @@ p {
     font-size: 18px;
     margin-bottom: 10px;
 }
+.video {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, #fff, #f2f2f2);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #111;
 
+
+}
 .social-media {
-    margin-top: 50px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, #ffffff, #f2f2f2);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
@@ -109,6 +169,11 @@ p {
 .social-media {
     margin-top: 50px;
     text-align: center;
+    .social-media {
+        margin-top: 50px;
+        text-align: center;
+        background-color: #000;
+    }
 }
 .social-media a {
     display: inline-block;
@@ -135,6 +200,9 @@ p {
 .social-media a.gmail {
     background-color: #D44638;
 }
-.footer {
+.social-media a.other {
+    background-color: #757590;
+}
+    .footer {
     font-size: 12px;
 }
