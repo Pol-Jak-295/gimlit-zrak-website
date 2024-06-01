@@ -1,4 +1,4 @@
-window.addEventListener('load', function() {
+document.addEventListener('DOMContentLoaded', function() {
     const themeStylesheet = document.getElementById('themeStylesheet');
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
         themeStylesheet.href = 'website_darkMode.css';
