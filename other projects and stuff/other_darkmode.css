@@ -2,15 +2,11 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #090909, #000);
+    background-image: url('loremIpsum.jpeg');
+    background-size: cover;
     margin: 0;
     padding: 0;
-}
-
-/* Add more styles here as needed */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    
     color: #333;
     margin: 0;
     padding: 20px;
@@ -21,9 +17,9 @@ body {
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-    background: linear-gradient(to bottom, #090909, #000);
+    background: linear-gradient(to bottom, #090909, #333);
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
     text-align: center;
     color: #ddd;
 }

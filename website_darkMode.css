@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #090909, #000);
+    background: linear-gradient(to bottom, #222, #000);
     margin: 0;
     padding: 0;
 }
@@ -10,9 +10,9 @@ body {
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-    background: linear-gradient(to bottom, #090909, #000);
+    background: linear-gradient(to bottom, #222, #000);
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
 }
 .container {
     margin-bottom: 20px;
@@ -22,9 +22,9 @@ body {
     margin: 0 auto;
     padding: 20px;
     text-align: justify;
-    background: linear-gradient(to bottom, #090909, #000);
+    background: linear-gradient(to bottom, #222, #000);
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
     margin-top: 20px;
     margin-bottom: 20px;
     color : #fff;
@@ -38,9 +38,9 @@ ol {
         margin: 0 auto;
         padding: 20px;
         text-align: center;
-        background: linear-gradient(to bottom, #090909, #000);
+        background: linear-gradient(to bottom, #222, #000);
         border-radius: 10px;
-        box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+        box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
         margin-top: 20px;
         margin-bottom: 20px;
         color: #fff;
@@ -53,9 +53,9 @@ ol {
         margin: 0 auto;
         padding: 20px;
         text-align: center;
-        background: linear-gradient(to bottom, #090909, #000);
+        background: linear-gradient(to bottom, #222, #000);
         border-radius: 10px;
-        box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+        box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
         margin-top: 20px;
         margin-bottom: 20px;
         color: #fff;
@@ -97,9 +97,9 @@ ol {
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-    background: linear-gradient(to bottom, #090909, #000);
+    background: linear-gradient(to bottom, #222, #000);
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
     color: #fff;
     
 }
@@ -108,9 +108,9 @@ ol {
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-    background: linear-gradient(to bottom, #090909, #000);
+    background: linear-gradient(to bottom, #222, #000);
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
     margin-top: 20px;
     margin-bottom: 20px;
     color: #fff;
@@ -120,9 +120,9 @@ ol {
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-    background: linear-gradient(to bottom, #090909, #000);
+    background: linear-gradient(to bottom, #222, #000);
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
     margin-top: 20px;
     margin-bottom: 20px;
     color: #fff;
@@ -142,17 +142,17 @@ p {
     margin-bottom: 10px;
 }
 .video {
-    max-width: 1200px;
+    max-width: 90%;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-    background: linear-gradient(to bottom, #090909, #000);
+    background: linear-gradient(to bottom, #222, #000);
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
     margin-top: 20px;
     margin-bottom: 20px;
     color: #fff;
-
+    
 
 }
 .social-media {
@@ -160,9 +160,9 @@ p {
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-    background: linear-gradient(to bottom, #090909, #000);
+    background: linear-gradient(to bottom, #222, #000);
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
     text-align: center;
 }
 
@@ -230,4 +230,15 @@ p {
 }
 .footer {
     font-size: 12px;
+
+}
+h6 {
+    color: #777;
+    font-size: 8px;
+    margin-bottom: 20px;
+}
+h7 {
+    color: #777;
+    font-size: 5px;
+    margin-bottom: 20px;
 }
