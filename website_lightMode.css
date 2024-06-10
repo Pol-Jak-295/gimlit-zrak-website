@@ -207,14 +207,16 @@ p {
     font-size: 12px;
 }
 
-}
+
 h6 {
     color: #333;
-    font-size: 8px;
+    font-size: 12px;
     margin-bottom: 20px;
+    font-weight: 3000;
 }
 h7 {
     color: #555;
-    font-size: 8px;
+    font-size: 12px;
     margin-bottom: 20px;
+    font-weight: 3000;
 }

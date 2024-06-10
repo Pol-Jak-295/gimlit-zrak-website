@@ -234,11 +234,13 @@ p {
 }
 h6 {
     color: #777;
-    font-size: 8px;
+    font-size: 12px;
     margin-bottom: 20px;
+    font-weight: 3000;
 }
 h7 {
     color: #555;
-    font-size: 8px;
+    font-size: 12px;
     margin-bottom: 20px;
+    font-weight: 3000;
 }
