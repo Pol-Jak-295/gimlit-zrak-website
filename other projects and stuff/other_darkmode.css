@@ -1,0 +1,25 @@
+/* Dark Mode Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('loremIpsum.jpeg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, #090909, #333);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    color: #ddd;
+}

@@ -1,188 +1,73 @@
 <!DOCTYPE html>
 <html>
-    <style>
-        body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #f2f2f2, #e6e6e6);
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-    background: linear-gradient(to bottom, #ffffff, #f2f2f2);
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-.container {
-    margin-bottom: 20px;
-}
-.container1 {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: justify;
-    background: linear-gradient(to bottom, #ffffff, #f2f2f2);
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.container2 {
-    margin-top: 20px;
-}
-.container2 {
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-    background: linear-gradient(to bottom, #ffffff, #f2f2f2);
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background-color: #333;
-    
-}
-.container3 {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-    background: linear-gradient(to bottom, #ffffff, #f2f2f2);
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.container4 {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-    background: linear-gradient(to bottom, #ffffff, #f2f2f2);
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-h1 {
-    color: #333;
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-p {
-    color: #666;
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-.social-media {
-    margin-top: 50px;
-    text-align: center;
-}
-
-.social-media a {
-    margin-right: 10px;
-}
-.container2 {
-    display: flex;
-    justify-content: space-between;
-    padding-top : 20px;
-}    
-.container2 {
-            display: flex;
-            justify-content: space-between;
-            padding-top: 20px;
-            background-color: #333;
-}        
-.container2 iframe {
-            width: 48%;
-            height: 500px;
-            border: none;
+    <script defer>document.addEventListener('DOMContentLoaded', function() {
+        const themeStylesheet = document.getElementById('themeStylesheet');
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            themeStylesheet.href = 'website_darkMode.css';
+        } else {
+            themeStylesheet.href = 'website_lightMode.css';
         }
-        
-.container2 iframe {
-    width: 48%;
-    height: 500px;
-    border: none;
-}    
-.social-media {
-    margin-top: 50px;
-    text-align: center;
-}
-.social-media a {
-    display: inline-block;
-    margin: 0 10px;
-    padding: 10px 20px;
-    font-size: 18px;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-.social-media a:hover {
-    background-color: #333;
-}
-.social-media a.facebook {
-    background-color: #3b5998;
-}
-.social-media a.twitter {
-    background-color: #1DA1F2;
-}
-.social-media a.instagram {
-    background-color: #C13584;
-}
-.social-media a.gmail {
-    background-color: #D44638;
-}
-.footer {
-    font-size: 12px;
-}
-    </style>
+    
+        // Optional: Listen for changes in the user's preference
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            if (event.matches) {
+                themeStylesheet.href = 'website_darkMode.css';
+            } else {
+                themeStylesheet.href = 'website_lightMode.css';
+            }
+        });
+    });
+    </script>
 <head>
-    <title>kakovost zraka</title>
+    <title>Kakovost zraka</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="website.css">
+    <link id="themeStylesheet" rel="stylesheet" href="website_lightMode.css"> <!-- Default to light mode -->
+    
 </head>
 <body>
     <div class="container">
-        <h1>kakovost zraka</h1>
-        <p>Welcome to our website!</p>
-        <p>Here you can find information about air quality.</p>
+        <h1>Kakovost zraka</h1>
+        <p>Pozdravljeni na moji spletni strani!</p>
+        <p>Tu najdete informacije o kvaliteti zraka.</p>
     </div>
-    
- <div class="container1">
-        <h2>What is air quality?</h2>
-        <p>Air quality is the degree to which air is suitable or clean enough for humans, animals, and plants. The air quality is determined by the amount of pollutants in the air. The most common pollutants are particulate matter, nitrogen dioxide, sulfur dioxide, carbon monoxide, and ozone. The air quality can be affected by natural sources, such as volcanoes and wildfires, and human activities, such as transportation, industry, and agriculture.</p>
-        <p>most common pollutants are:</p>
-        <ol>
-            <li>pm-10, pm-2.5 and BC (black carbon)</li>
-                <ul>
-                    <li>the number after pm is the size of particles (10, 2.5 nanometers), black carbon however is a lot smaller, and is therefore able to enter cells of the body</li>
-                </ul>
-            <li>gasseous pollutants</li>
-                <ul>
-                    <li>those pollutants fall into the category of gasses, so they are inhaled into the lungs of a living being</li>
-                    <li>such pollutants are:</li>
-                        <ul>
-                            <li>NO2</li>
-                            <li>SO2</li>
-                            <li>CO</li>
-                            <li>O3</li>
-                        </ul>
-                </ul>
 
+<div class="navbar">
+        <a href="main.html" class="home">Domov</a>
+        <a href="#video" class="Video">Video</a>
+        <a href="#social media"class="Contact">Kontakt</a>
+        <a href="other projects and stuff/other.html"class=other>Ostalo</a>
+</div>
+
+    <div class="container1">
+        <h2>Kaj je kvaliteta zraka</h2>
+        <p>Kakovost zraka je stopnja, do katere je zrak primeren ali dovolj čist za ljudi, živali in rastline. Kakovost zraka določa količina onesnaževal v zraku. Najpogostejša onesnaževala so trdni delci, dušikov dioksid, žveplov dioksid, ogljikov monoksid in ozon. Na kakovost zraka lahko vplivajo naravni viri, kot so vulkani in gozdni požari, ter človeške dejavnosti, kot so promet, industrija in kmetijstvo.</p>
+        <p>Najkpogostejši onesnaževalci so:</p>
+        <ol>
+            <li>PM-10, PM-2.5 and BC (black carbon = črni ogljik)</li>
+            <ul>
+                <li>Številka po pm predstavlja velikost delcev (10, 2.5 nanometers), črni ogljik pa je veliko manjši in zato lahko vstopi v celice telesa</li>
+            </ul>
+            <li>Plinski onesnaževalci</li>
+            <ul>
+                <li>Those pollutants fall into the category of gasses, so they are inhaled into the lungs of a living being</li>
+                <li>Te onesnaževalci so:</li>
+                <ul>
+                    <li>NO2 (dušikov dioksid)</li>
+                    <li>SO2 (žveplov dioksid)</li>
+                    <li>CO (ogljikov monoksid)</li>
+                    <li>O3 (ozon)</li>
+                </ul>
+            </ul>
         </ol>
     </div>
+
+
     <div class="container3">
-        <h2>What data is relevant to this theme?</h2>
-        <p>the data we used is represented in the table below:</p>
+        <h2>Kateri podatki so relevantni?</h2>
+        <p>Podatki prikazani v spodnji tabeli:</p>
         <table name="data">
             <tr>
-                <th>Location</th>
+                <th>Kraj</th>
                 <th>PM-10</th>
                 <th>PM-2.5</th>
                 <th>BC</th>
@@ -242,35 +127,47 @@ p {
                 <td>30</td>
             </tr>
         </table>
-        <p style="font-size: 8px; text-align:justify;">data generated by AI on 05/20/2024 13.49 GMT +2</p>
+        <p style="font-size: 8px; text-align:justify;">podatki ustvarjeni z umetno inteligenco dne 05/20/2024 ob 13.49 GMT +2</p>
     </div>
   
+
     <div class="container2">
         <iframe id="gimlit_maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1344.8072574014695!2d14.818364572544649!3d46.06254198122614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47653c42b3b88745%3A0x281ba174391efd2e!2sGimnazija%20Litija!5e0!3m2!1ssl!2ssi!4v1716201970446!5m2!1ssl!2ssi" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <iframe id="litija_vreme" src="https://www.accuweather.com/sl/si/litija/299192/hourly-weather-forecast/299192"></iframe>
     </div>
+
+
     <div class="container4">
-        <h2>galerija</h2>
+        <h2>Galerija</h2>
         <a href="https://www.arso.gov.si/zrak/kakovost%20zraka/" target="_blank">
             <img src="https://www.agro-chemistry.com/wp-content/uploads/2021/05/Rokende-schoorsteen-2000x1200.jpg" alt="dimnik" width="100%">
         </a>
         <a href="https://www.aerosolmageesci.com/applications/mobile-measurement-of-black-carbon/" target="_blank">
             <img src="https://www.aerosolmageesci.com/wp-content/uploads/2022/12/Mobile_app.jpg" alt="merilec črnega ogljika" width="100%">
         </a>
-        <a href="https://www.arso.gov.si/zrak/kakovost%20zraka/" target="_blank">
-            <img src="https://www.arso.gov.si/fileadmin/arso/2021/Novice/2021/2021-11-25_ogljikov_monoksid.jpg" alt="arso" width="100%">
+        <a href="https://education.nationalgeographic.org/resource/air-pollution/" target="_blank">
+            <img src="https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1638889896/EducationHub/photos/shanghai-towers-above-the-smog.jpg" alt="arso" width="100%">
+        </a>
     </div>
-    
 
+
+    <div class="video" id="video">
+        <h2>Video, ki bolje razloži temo (angleščina)</h2>
+        <iframe width=1536px height=864px src="https://www.youtube-nocookie.com/embed/e6rglsLy1Ys?si=XFyhBVVEQ6yvXxZW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    </div>
 </body>
+
+
 <footer>
-    <div class="social-media">
+    <div class="social-media" id="social media">
         <a href="https://www.facebook.com" class="facebook" target="_blank">Facebook</a>
         <a href="https://www.twitter.com" class="twitter" target="_blank">Twitter</a>
         <a href="https://www.instagram.com" class="instagram" target="_blank">Instagram</a>
         <a href="https://www.gmail.com" class="gmail" target="_blank">Gmail</a>
+        <a href="other projects and stuff/other.html" class="other" target="_blank">ostalo</a>
     </div>
+
     <p>&copy; 2024, All rights reserved</p>
     <p>Author: Jaka Polesnik</p>
+    <h6>Prispevala tudi Aljaz Zorec <h7>in Leon Novak</h7></h6>
 </footer>
 </html>
