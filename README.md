@@ -1,2 +1,0 @@
-# gimlit zrak website
- 
